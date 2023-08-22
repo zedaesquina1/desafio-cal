@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin-top: 5%;
+    background-color: rgb(184, 184, 184);
+}
+
+.cal{
+    text-align: center;
+    background-color: rgb(2, 1, 1);
+    width: 500px;
+    height: 520px;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+
+.linha {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.titulo {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.botoes {
+    margin-top: 30px;
+}
+
+.botao {
+    width: 85px;
+    height: 85px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px 0px white;
+}
+
+@media (max-width: 600px) {
+    .cal{
+        margin-left: 2%;
+        width: 480px;
+    }
+}
